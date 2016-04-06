@@ -1,16 +1,16 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6FD34635663519E1CD14DEE5EC161FDBAD552DD0",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3896701C29527CBF4A8C0149F0B40E65EE4A0849",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "6FD34635663519E1CD14DEE5EC161FDBAD552DD0" : 0,
-    "299DADECC91A9A97B9036E7E64119C3775C735E1" : 0
+    "299DADECC91A9A97B9036E7E64119C3775C735E1" : 0,
+    "3896701C29527CBF4A8C0149F0B40E65EE4A0849" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "78AE95D3-DC39-4F82-AA3E-3A00EAC4614C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "6FD34635663519E1CD14DEE5EC161FDBAD552DD0" : "SimpleHeroTable\/",
-    "299DADECC91A9A97B9036E7E64119C3775C735E1" : ""
+    "299DADECC91A9A97B9036E7E64119C3775C735E1" : "",
+    "3896701C29527CBF4A8C0149F0B40E65EE4A0849" : "SimpleHeroTable\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SimpleHeroTable",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -24,7 +24,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sojiwritescode\/SimpleHeroTable.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FD34635663519E1CD14DEE5EC161FDBAD552DD0"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3896701C29527CBF4A8C0149F0B40E65EE4A0849"
     }
   ]
 }

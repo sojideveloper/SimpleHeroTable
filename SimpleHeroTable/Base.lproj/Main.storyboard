@@ -5,6 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="CRIMFBRG.TTF">
+            <string>CrimeFighterBB</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--True IDs-->
         <scene sceneID="tne-QT-ifu">
@@ -36,12 +41,12 @@
                                                         <constraint firstAttribute="width" constant="90" id="uSC-aQ-pzU"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyi-O4-ZL5">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyi-O4-ZL5">
                                                     <rect key="frame" x="111" y="35" width="178" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="178" id="9e0-Vp-dR5"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="13"/>
+                                                    <fontDescription key="fontDescription" name="CrimeFighterBB" family="CrimeFighter BB" pointSize="13"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>

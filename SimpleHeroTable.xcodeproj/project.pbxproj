@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E1C78F51CAE0CBF00E1E252 /* HeroPics in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C78F31CAE0CBF00E1E252 /* HeroPics */; };
 		2E1C78F61CAE0CBF00E1E252 /* TruePics in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C78F41CAE0CBF00E1E252 /* TruePics */; };
 		2E1C78F81CAE0CD700E1E252 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C78F71CAE0CD700E1E252 /* UI */; };
+		C06201681CB4A22F00452C4D /* CRIMFBB_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C06201661CB4A22F00452C4D /* CRIMFBB_.TTF */; };
+		C06201691CB4A22F00452C4D /* CRIMFBRG.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C06201671CB4A22F00452C4D /* CRIMFBRG.TTF */; };
 		C714C7FE1CAC20A0008E300F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714C7FD1CAC20A0008E300F /* AppDelegate.swift */; };
 		C714C8031CAC20A0008E300F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C714C8011CAC20A0008E300F /* Main.storyboard */; };
 		C714C8051CAC20A0008E300F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C714C8041CAC20A0008E300F /* Assets.xcassets */; };
@@ -20,15 +21,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E1C78F31CAE0CBF00E1E252 /* HeroPics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HeroPics; path = Pics/HeroPics; sourceTree = "<group>"; };
-		2E1C78F41CAE0CBF00E1E252 /* TruePics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TruePics; path = Pics/TruePics; sourceTree = "<group>"; };
-		2E1C78F71CAE0CD700E1E252 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UI; path = Pics/TruePics/UI; sourceTree = "<group>"; };
+		2E1C78F31CAE0CBF00E1E252 /* HeroPics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HeroPics; path = SimpleHeroTable/Pics/HeroPics; sourceTree = "<group>"; };
+		2E1C78F41CAE0CBF00E1E252 /* TruePics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TruePics; path = SimpleHeroTable/Pics/TruePics; sourceTree = "<group>"; };
+		2E1C78F71CAE0CD700E1E252 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UI; path = SimpleHeroTable/Pics/TruePics/UI; sourceTree = "<group>"; };
+		C06201661CB4A22F00452C4D /* CRIMFBB_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = CRIMFBB_.TTF; sourceTree = "<group>"; };
+		C06201671CB4A22F00452C4D /* CRIMFBRG.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = CRIMFBRG.TTF; sourceTree = "<group>"; };
 		C714C7FA1CAC20A0008E300F /* SimpleHeroTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleHeroTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C714C7FD1CAC20A0008E300F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C714C8021CAC20A0008E300F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C714C8041CAC20A0008E300F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C714C8041CAC20A0008E300F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SimpleHeroTable/Assets.xcassets; sourceTree = "<group>"; };
 		C714C8071CAC20A0008E300F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C714C8091CAC20A0008E300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C714C8091CAC20A0008E300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SimpleHeroTable/Info.plist; sourceTree = "<group>"; };
 		C714C8111CAC2390008E300F /* TrueIdentityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueIdentityTableViewCell.swift; sourceTree = "<group>"; };
 		C714C8131CAC247E008E300F /* TrueIdentityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueIdentityViewController.swift; sourceTree = "<group>"; };
 		C714C81D1CAC25FD008E300F /* HeroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
@@ -45,14 +48,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C714C7F11CAC20A0008E300F = {
+		C062016A1CB4A26800452C4D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C06201661CB4A22F00452C4D /* CRIMFBB_.TTF */,
+				C06201671CB4A22F00452C4D /* CRIMFBRG.TTF */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		C062016B1CB4A32A00452C4D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C714C8061CAC20A0008E300F /* LaunchScreen.storyboard */,
+				C714C8011CAC20A0008E300F /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C062016C1CB4A35400452C4D /* PropertyLists */ = {
+			isa = PBXGroup;
+			children = (
+				C714C8091CAC20A0008E300F /* Info.plist */,
+			);
+			name = PropertyLists;
+			sourceTree = "<group>";
+		};
+		C08DA6461CB49A8400BB7252 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C062016C1CB4A35400452C4D /* PropertyLists */,
+				C062016A1CB4A26800452C4D /* Fonts */,
+				C08DA6471CB49A9B00BB7252 /* Images */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C08DA6471CB49A9B00BB7252 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C78F31CAE0CBF00E1E252 /* HeroPics */,
+				2E1C78F71CAE0CD700E1E252 /* UI */,
+				2E1C78F41CAE0CBF00E1E252 /* TruePics */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C08DA64A1CB49ADB00BB7252 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				C714C81D1CAC25FD008E300F /* HeroViewController.swift */,
 				C714C8131CAC247E008E300F /* TrueIdentityViewController.swift */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C08DA64B1CB49AF100BB7252 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C062016B1CB4A32A00452C4D /* Storyboards */,
+				C714C8041CAC20A0008E300F /* Assets.xcassets */,
 				C714C8111CAC2390008E300F /* TrueIdentityTableViewCell.swift */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C714C7F11CAC20A0008E300F = {
+			isa = PBXGroup;
+			children = (
 				C714C7FC1CAC20A0008E300F /* SimpleHeroTable */,
-				C714C7FB1CAC20A0008E300F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,19 +129,17 @@
 				C714C7FA1CAC20A0008E300F /* SimpleHeroTable.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		C714C7FC1CAC20A0008E300F /* SimpleHeroTable */ = {
 			isa = PBXGroup;
 			children = (
 				C714C7FD1CAC20A0008E300F /* AppDelegate.swift */,
-				C714C8011CAC20A0008E300F /* Main.storyboard */,
-				C714C8041CAC20A0008E300F /* Assets.xcassets */,
-				C714C8061CAC20A0008E300F /* LaunchScreen.storyboard */,
-				2E1C78F31CAE0CBF00E1E252 /* HeroPics */,
-				2E1C78F71CAE0CD700E1E252 /* UI */,
-				2E1C78F41CAE0CBF00E1E252 /* TruePics */,
-				C714C8091CAC20A0008E300F /* Info.plist */,
+				C08DA64B1CB49AF100BB7252 /* Views */,
+				C08DA64A1CB49ADB00BB7252 /* Controllers */,
+				C08DA6461CB49A8400BB7252 /* Resources */,
+				C714C7FB1CAC20A0008E300F /* Products */,
 			);
 			path = SimpleHeroTable;
 			sourceTree = "<group>";
@@ -137,7 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E1C78F51CAE0CBF00E1E252 /* HeroPics in Resources */,
+				C06201681CB4A22F00452C4D /* CRIMFBB_.TTF in Resources */,
+				C06201691CB4A22F00452C4D /* CRIMFBRG.TTF in Resources */,
 				C714C8081CAC20A0008E300F /* LaunchScreen.storyboard in Resources */,
 				C714C8051CAC20A0008E300F /* Assets.xcassets in Resources */,
 				2E1C78F81CAE0CD700E1E252 /* UI in Resources */,
@@ -169,6 +235,7 @@
 				C714C8021CAC20A0008E300F /* Base */,
 			);
 			name = Main.storyboard;
+			path = SimpleHeroTable;
 			sourceTree = "<group>";
 		};
 		C714C8061CAC20A0008E300F /* LaunchScreen.storyboard */ = {
@@ -177,6 +244,7 @@
 				C714C8071CAC20A0008E300F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = SimpleHeroTable;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
